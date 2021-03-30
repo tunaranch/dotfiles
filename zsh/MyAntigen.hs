@@ -22,6 +22,11 @@ bundles =
   , bundle "Tarrasch/zsh-mcd"
   , bundle "Tarrasch/zsh-syntax-highlighting" -- Just to pinpoint the version
   , bundle "Tarrasch/zsh-history-substring-search" -- Upstream started to break
+  , bundle "Seinh/git-prune"
+  , bundle "hschne/fzf-git"
+  , bundle "Tarrasch/zsh-syntax-highlighting" -- Just to pinpoint the version
+  , bundle "Tarrasch/zsh-history-substring-search" -- Upstream started to break 
+  , bundle "unixorn/bitbucket-git-helpers.plugin.zsh"
   ]
 
 config = defaultConfig { plugins = bundles }
